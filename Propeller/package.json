@@ -1,14 +1,17 @@
 {
-  "name": "learnlab-tests",
+  "name": "Propeller",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.52.0",
-    "@types/node": "^22.15.18"
+    "@types/node": "^22.15.18",
+    "typescript": "^5.9.2"
   }
 }
